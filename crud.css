@@ -1,0 +1,28 @@
+
+    :root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow: 0.5rem 1.5rem rgb(0,0,0,.1);
+    --border:.2rem solid var(--black);
+    --outline:.1rem solid black;
+    --outline-hover:.2rem solid var(--black);
+    }
+
+
+    .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    grid-gap: 4rem;
+    }
+
+    .container .box{
+    color: black;
+    margin: 50px;
+    padding: 55px;
+    outline: var(--outline);
+    background-color: white;
+    height: 37rem;
+    outline-offset: -.5rem;
+    box-shadow: 0rem .4rem 2rem rgb(80, 66, 66);
+    }
